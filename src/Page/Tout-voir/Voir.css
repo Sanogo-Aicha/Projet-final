@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins','sans serif';
+}
+em{
+    font-size: 40px;
+}
+form{
+    border: 2px solid white;
+    width: 30%;
+    height: 250px;
+    margin-left: 530px;
+    margin-top: 90px;
+}
+input{
+    font-size: 30px;
+    margin: 20px;
+}
+input:hover{
+    border: 2px solid green;
+}
+#button-card{
+    border: 2px solid white;
+    height: 50px;
+    width: 150px;
+    border-radius: 8px;
+    background-color: green;
+}

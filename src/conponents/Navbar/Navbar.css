@@ -1,0 +1,27 @@
+.nav{
+    border: 2px solid black;
+    display: flex;
+    background-color: transparent;
+    padding: 20px 10px;
+}
+.logo{
+    
+    height: 100px;
+    width: 100px;
+   
+}
+#logo-image{
+    
+    height: 100%;
+    width: 100%;
+   
+}
+
+.tout-voir{
+    margin-left: 20px;
+}
+select{
+    margin-left: 20px;
+    background-color:#081b29;
+    color: #ededed;
+}
