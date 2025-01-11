@@ -1,13 +1,12 @@
 import React from "react";
 import Navbar from "../../conponents/Navbar/Navbar";
-import Image from "../../conponents/Image/Image";
+import ImageAccueil from "../../conponents/Image-de-page-accueil/ImageAccueil";
 import Footer from "../../conponents/Foother/Foother";
-import ListCards from "../../conponents/Accueil-movies/ListeCards";
 const Accueil=()=>{
     return(
         <div>
            <Navbar/>
-           <Image/> 
+           <ImageAccueil/> 
            <Footer/>
         </div>
     )

@@ -7,13 +7,7 @@ import "./Voir.css"
 import moviesData from "../../conponents/movies-data/data";
 import MovieCards from "../../conponents/Accueil-movies/MovieCards";
 const ToutVoir=()=>{
-    const [sheatem, setSheatem] = useState("");
-    const handleChange = (e) => {
-        let value = e.target.value;
-        setSheatem(value);
-        
-        
-      };
+    
       console.log(sheatem);
       
       /*const handlefiler=()=>{
@@ -85,7 +79,7 @@ const ToutVoir = () => {
           required
         />
         <input
-          type="text"
+          type="number"
           placeholder="ENTREZ VOTRE AGE"
           value={userAge}
           onChange={(e) => setUserAge(e.target.value)}

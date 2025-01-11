@@ -1,13 +1,13 @@
 import React from "react";
-import './image.css';
-const Image=()=>{
+import './imageAccueil.css';
+const ImageAccueil=()=>{
     
     return(
         <div className="containers">
             <div className="texte">
                 <h1>Bienvenue dans l'univers enchanté des dessins animés !</h1>
                 <em>Plongez dans un monde de magie, d'aventures, et de rires avec FINCS <br />
-                    votre destination ultime pour tout ce qui concerne les dessins animés !</em>
+                    votre destination ultime pour tout ce qui concerne les dessins animés!</em>
             </div>
          <div className="container">
          <div className="container-image"><img src="https://cdn.futura-sciences.com/cdn-cgi/image/width=1024,quality=50,format=auto/sources/fs-cellulo.jpg" alt="" id="image" /></div>
@@ -27,4 +27,4 @@ const Image=()=>{
        </div>
     )
 }
-export default Image;
+export default ImageAccueil;
