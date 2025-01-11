@@ -2,7 +2,7 @@ import react from "react";
 import './MovieCards.css';
 import AddFavorite from "../../Add-Favorite/AddFavorites";
 const MovieCards=({cards})=>{
-    const {image,titre,description,age}=cards
+    const {image}=cards
     return(
         <div className="cards-movies">
           <div className="image-movies">

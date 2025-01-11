@@ -3,13 +3,19 @@ import { Link, useParams } from 'react-router-dom';
 import DataMovie from '../../Movies-Data/DataMovie';
 import './MoviesListComponent.css';
 import CardsData from '../../Cards-data/data';
+import MoviesCoponent from '../MoviesComponents/MoviesComponent';
 export default function MoviesListComponent () {
-    let movies=DataMovie.find((elt)=>{
-      return elt.id= CardsData.id;
-    })
+  let id=useParams().id
+  let movies=DataMovie.find((elt)=>{
+    return elt.id==id;
+  })
+
+  
     return (
       <div className='container'>
-        <div className='postUrl'>{movies.PostUrl1} </div>
+        <div className='postUrl'>
+        <MoviesCoponent movies={movies}/>
+           </div>
         <button><Link to="/">Retour</Link></button>
         </div>
     )

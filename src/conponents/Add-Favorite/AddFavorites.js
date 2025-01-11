@@ -1,6 +1,5 @@
 import React from "react";
 import './AddFavorites.css'
-import ListCard from "../Accueil-movies/ListCards/ListeCards";
 const AddFavorite = () => {
   return (
     <div className="favorite" >

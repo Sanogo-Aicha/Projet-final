@@ -1,16 +1,28 @@
  var DataMovies=[
     {
         id:1,
-        PostUrl1:"https://www.youtube.com/embed/ILGIYtLQ3Ms?si=VMM214lHkQcUgyOe",
+        PostUrl:{
+            postUrl1:"https://www.youtube.com/embed/uaVPfYBuAdU?si=d70izoOAKvfvapK7",
+            postUrl2:"https://www.youtube.com/embed/uaVPfYBuAdU?si=d70izoOAKvfvapK7" 
+            
+        }  ,
     },
     {
         id:2,
-        PostUrl1:"https://www.youtube.com/embed/1i5vo58lhzI?si=KKYOLHRoQw-PFK0t",
+        PostUrl1:{
+            postUrl1:"",
+            postUrl2:"",
+            
+        }
         
     },
     {
         id:3,
-        PostUrl1:"https://www.youtube.com/embed/1i5vo58lhzI?si=KKYOLHRoQw-PFK0t",
+        PostUrl1:{
+            postUrl1:"",
+            postUrl2:"",
+            
+        }
         
     },
     {
