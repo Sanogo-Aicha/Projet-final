@@ -61,7 +61,6 @@ const ListCard = () => {
             return (
               <div>
                 <Link to={`MoviesListComponent/${element.id}`}>
-                  {" "}
                   <MovieCards cards={element} />
                 </Link>
               </div>

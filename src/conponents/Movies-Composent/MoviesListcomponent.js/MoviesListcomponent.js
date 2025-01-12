@@ -12,9 +12,11 @@ export default function MoviesListComponent () {
 
   
     return (
-      <div className='container'>
+      <div className='container-movies'>
         <div className='postUrl'>
-        <MoviesCoponent movies={movies}/>
+        
+              <MoviesCoponent movie={movies}/>
+           
            </div>
         <button><Link to="/">Retour</Link></button>
         </div>
