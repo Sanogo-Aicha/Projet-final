@@ -29,6 +29,6 @@ a{
 }
 select{
     margin-left: 20px;
-    background-color:#081b29;
-    color: #ededed;
+    background-color:rgb(5, 5, 43);
+    color:   #ededed;
 }

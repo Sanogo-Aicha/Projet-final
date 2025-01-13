@@ -4,6 +4,7 @@ import DataMovie from '../../Movies-Data/DataMovie';
 import './MoviesListComponent.css';
 import CardsData from '../../Cards-data/data';
 import MoviesCoponent from '../MoviesComponents/MoviesComponent';
+import Navbar from '../../Navbar/Navbar';
 export default function MoviesListComponent () {
   let id=useParams().id
   let movies=DataMovie.find((elt)=>{
@@ -12,14 +13,17 @@ export default function MoviesListComponent () {
 
   
     return (
+      <>
+      <Navbar/>
       <div className='container-movies'>
         <div className='postUrl'>
         
               <MoviesCoponent movie={movies}/>
-           
+             
            </div>
-        <button><Link to="/">Retour</Link></button>
+        
         </div>
+        </>
     )
   
 }

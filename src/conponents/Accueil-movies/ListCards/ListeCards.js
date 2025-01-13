@@ -5,6 +5,7 @@ import { FaSearch } from "react-icons/fa"; //L'importation de l'icon de recherch
 import Footer from "../../Foother/Foother"; //L'importation du composant Footer
 import MovieCards from "../MoviesCards/MovieCards";
 import CardsData from "../../Cards-data/data";
+import "./ListCards.css"
 const ListCard = () => {
   const location = useLocation();
   const { userName, userAge } = location.state || {}; // Récupère les valeurs passées
@@ -31,7 +32,7 @@ const ListCard = () => {
   return (
     <div>
       <Navbar />
-      <div>
+      <div className="message-Listcards">
         <h1>Bienvenue dans notre ListCard</h1>
         <p>
           <h2>{userName}</h2>
@@ -60,7 +61,7 @@ const ListCard = () => {
           .map((element) => {
             return (
               <div>
-                <Link to={`MoviesListComponent/${element.id}`}>
+                <Link to={`/MoviesListComponent/${element.id}`}>
                   <MovieCards cards={element} />
                 </Link>
               </div>
